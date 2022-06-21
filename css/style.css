@@ -1,0 +1,66 @@
+/* Universel selecto */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+/* id selector */
+#container{
+    text-align: center;
+    width: 50%;
+    background-color: red;
+    margin: 10px auto;
+}
+
+/* decendent selector */
+#container{
+    font-size: 50px;
+    margin: 20px 0px;
+}
+from{
+
+}
+/* Grouping selecto */
+input, label{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+label{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+input{
+    padding: 10px;
+    margin: 10px auto;
+}
+p {
+    font-size: 18px;
+}
+/* decendent selector */
+
+p a {
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+/* attibute selector */
+input[type="submit"]{
+    width: 70px;
+    font-size: 20px;
+   font-weight: 600;
+   background-color: black;
+   color: aliceblue;
+   border-radius: 5px;
+}
+/* psudo selector */
+input[type="submit"]:hover{
+    background-color: aliceblue;
+    color: red;
+border: red;
+}
+/* psudo element selector */
+input::placeholder{
+    color: blue;
+}
